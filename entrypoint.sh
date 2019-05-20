@@ -59,7 +59,7 @@ cat <<-EOF > /v2raybin/v2ray-$V_VER-linux-$SYS_Bit/config.json
     "inbound":{
         "protocol":"vmess",
         "listen":"127.0.0.1",
-        "port":2333,
+        "port":1080,
         "settings":{
             "clients":[
                 {
